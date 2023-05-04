@@ -1,5 +1,5 @@
 # NTHU
-This is the model description of my MS research. [README.md](README.md) will only show vague description of the simulation process. All of the files are written in Python. If one wish to use the code, please be aware of the Python packages.
+This is the model description of my MS research. [README.md](README.md) will only show the description of the base simulation model. All of the files are written in Python. If one wish to use the code, please be aware of the Python packages.
 
 ## Contents
 - [**Data Synthesization**](#data_synthesization)

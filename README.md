@@ -3,10 +3,11 @@ This is the model description of my MS research. [README.md](README.md) will onl
 
 ## Contents
 - [**Data Synthesization**](#data_synthesization)
-    - [**D1**](#D1)
-    - [**D2**](#D2)
-    - [**D3**](#D3)
+	- [**D1**](#D1)
+	- [**D2**](#D2)
+	- [**D3**](#D3)
 - [**Simulation Model**](#model)
+	- [**Simulation functions**](#sim_func)
 
 <h2 id="data_synthesization">💾 Data Synthesization</h2>
 
@@ -77,3 +78,6 @@ elif(data_type == 3):
 Reference file plz see [here](/data_synthesis_storage.ipynb)
 
 <h2 id="model">🖥 Simulation Model</h2>
+Our simuation model will be consisted of 2 parts. One is the [main.py](#main.py), which is the actions of the simulation. The other is the simulation process
+
+<h3 id="sim_func">Simulation Functions</h3>

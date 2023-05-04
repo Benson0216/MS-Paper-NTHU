@@ -78,6 +78,6 @@ elif(data_type == 3):
 Reference file plz see [here](/data_synthesis_storage.ipynb)
 
 <h2 id="model">🖥 Simulation Model</h2>
-Our simuation model will be consisted of 2 parts. One is the [main.py](#main.py), which is the actions of the simulation. The other is the simulation process
+Our simuation model will be consisted of 2 parts. One is the [main](/main.py), which is the actions of the simulation. The other is the simulation process
 
 <h3 id="sim_func">Simulation Functions</h3>

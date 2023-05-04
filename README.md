@@ -210,6 +210,6 @@ hosp_loc = [[] for i in range(len(hosp_clus_list))]
         for i in hosp_clus_list:
             hosp_loc[i] = [[] for h in range(len(hosp_clus.get_group(i)))]
 ```
-> Because I want to seperate different networks, so I use nested list to not only stored the hopsitals' location in the network and also stored where the paitents be sent to. `cluster_hosp_index` for hospitals' location reference, `hosp_loc` for storing the patient (as for the value of the time duration).
+> Because I want to seperate different networks, so I use nested list to not only stored the hopsitals' location in the network and also stored where the paitents be sent to. `cluster_hosp_index` for the reference of hospitals' location, `hosp_loc` for storing the patient (as in the value of the time duration).
 
 Reference file plz see [here](/sim_scenario_0.ipynb)

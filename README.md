@@ -7,7 +7,7 @@ This is the model description of my MS research. [README.md](README.md) will onl
 	- [**D2**](#D2)
 	- [**D3**](#D3)
 - [**Simulation Model**](#model)
-	- [**Settingd**](#settings)
+	- [**Settings**](#settings)
 	- [**Transfer of the patients**](#trans_pat)
 	- [**Simulation**](#sim)
 

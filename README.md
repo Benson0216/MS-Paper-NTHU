@@ -1,5 +1,5 @@
 # Prehospital Selection with Simulation
-This is the model description of my MS research. [README.md](README.md) will only show the description of the base simulation model. All of the files are written in Python. If one wish to use the code, please be aware of the Python packages.
+This is the model description of my MS research. [README.md](README.md) will only show the description of the base simulation model. All of the files are written in Python (version 3.11.2). If one wish to use the code, please be aware of the Python packages and liba.
 
 ## Contents
 - [**Data Synthesization**](#data_synthesization)
@@ -110,7 +110,7 @@ def read_data_by_sheet(data_type: int, s_name: int):
     data['time_of_react'] = time_of_react[f'Data{data_type}_{s_name}']
     return data
 ```
-> Read and transform the data based the reqirement, also add another column `time_of_react` from the file.
+> Read and transform the data based on the requirement, also add another column `time_of_react` from the file.
 
 ```python
 def find_hosp_index(hosp_index, arr: list):
@@ -207,8 +207,8 @@ for i in range(len(hosp_clus_list)):
     cluster_hosp_index[i] = [h for h in hosp_clus.get_group(i).index]
 
 hosp_loc = [[] for i in range(len(hosp_clus_list))]
-        for i in hosp_clus_list:
-            hosp_loc[i] = [[] for h in range(len(hosp_clus.get_group(i)))]
+for i in hosp_clus_list:
+    hosp_loc[i] = [[] for h in range(len(hosp_clus.get_group(i)))]
 ```
 > Because I want to seperate different networks, so I use nested list to not only stored the hopsitals' location in the network and also stored where the paitents be sent to. `cluster_hosp_index` for the reference of hospitals' location, `hosp_loc` for storing the patient (as in the value of the time duration).
 

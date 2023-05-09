@@ -1,5 +1,5 @@
 # Prehospital Selection with Simulation
-This is the model description of my MS research. [README.md](README.md) will only show the description of the base simulation model. All of the files are written in Python (version 3.11.2). If one wish to use the code, please be aware of the Python packages and liba.
+This is the model description of my MS research. [README.md](README.md) will only show the description of the base simulation model. All of the files are written in Python (version 3.11.2). If one wish to use the code, please be aware of the Python packages and libraries. Wish to learn more, please contact me.
 
 ## Contents
 - [**Data Synthesization**](#data_synthesization)

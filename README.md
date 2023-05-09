@@ -139,7 +139,7 @@ def inner_cluster_1st(pat_no, pat_pd: pd.DataFrame):
             ind = i
     return ind, M
 ```
-> `inner_cluster_1st()` help me decide the first stop of the patients based the total time duration, which including the time duration of each patients' location to each hospital, time of reaction (and also some fixed parameters which we will not explain here).
+> `inner_cluster_1st()` help me decide the first stop of the patients based on the total time duration, which including the time duration of each patients' location to each hospital, time of reaction (and also some fixed parameters which we will not explain here).
 
 After being sent to the first hospital, based on certain crterion, there might be a second transfer. I will talk about the `inner transfer` first. So, after first transfer, the patient is in a network which the transfer within the network will be referred as `inner transfer`. According to the condition of the patients and the level of the hospital, patients will be sent within the network or outside the network which be referred to `intra transfer`. 
 ```python

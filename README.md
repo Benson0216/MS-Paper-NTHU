@@ -67,13 +67,13 @@ elif(data_type == 2):
 
 ```python
 elif(data_type == 3):
-        while(len(pat_data) < number_of_data):
-            sam_vill_ind = np.random.choice([i for i in gdf_vill_ping.index], p = vill_sampling_2)
-            x_min, y_min, x_max, y_max = gdf_vill_ping['geometry'][sam_vill_ind].bounds
-            x = np.random.uniform(x_min, x_max)
-            y = np.random.uniform(y_min, y_max)
-            pat_data = pat_data.append(gpd.GeoSeries(Point(x, y)))
-            pat_data = pat_data[pat_data.within(ping.at[21,'geometry'])]
+	while(len(pat_data) < number_of_data):
+		sam_vill_ind = np.random.choice([i for i in gdf_vill_ping.index], p = vill_sampling_2)
+		x_min, y_min, x_max, y_max = gdf_vill_ping['geometry'][sam_vill_ind].bounds
+		x = np.random.uniform(x_min, x_max)
+		y = np.random.uniform(y_min, y_max)
+		pat_data = pat_data.append(gpd.GeoSeries(Point(x, y)))
+		pat_data = pat_data[pat_data.within(ping.at[21,'geometry'])]
 ```
 > Same as [D2](#D2), but the sampling of the villages will based on each villages' population density.
 
